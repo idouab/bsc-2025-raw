@@ -83,7 +83,7 @@
         {
             "id": "2bc23914-dfe9-11ef-832e-0242ac130004",
             "tournament_id": 0,
-            "name": "Team Elektros",
+            "name": "F/A UK",
             "players": [
                 {
                     "name": "TE | RamaZR",
@@ -98,7 +98,7 @@
                     "gamerTag": "#"
                 }
             ],
-            "img": "https://raw.githubusercontent.com/idouab/bsc-2025-raw/main/logos/Team Elektros.png"
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2025-raw/main/logos/F/A UK.png"
         },
         {
             "id": "1829f87c-e658-11ef-98a6-0242ac130004",
@@ -1199,7 +1199,7 @@
             "status": 4,
             "opponent1": {
                 "id": "2bc23914-dfe9-11ef-832e-0242ac130004",
-                "name": "Team Elektros",
+                "name": "F/A UK",
                 "seed": 8,
                 "score": 3,
                 "result": "win"
@@ -2369,7 +2369,7 @@
             "status": 4,
             "opponent1": {
                 "id": "2bc23914-dfe9-11ef-832e-0242ac130004",
-                "name": "Team Elektros",
+                "name": "F/A UK",
                 "seed": 8,
                 "score": 3,
                 "result": "win"
@@ -2926,7 +2926,7 @@
             },
             "opponent2": {
                 "id": "2bc23914-dfe9-11ef-832e-0242ac130004",
-                "name": "Team Elektros",
+                "name": "F/A UK",
                 "seed": 8,
                 "score": 0,
                 "result": "loss"
@@ -4965,7 +4965,7 @@
             "status": 4,
             "opponent1": {
                 "id": "2bc23914-dfe9-11ef-832e-0242ac130004",
-                "name": "Team Elektros",
+                "name": "F/A UK",
                 "seed": 8,
                 "score": 3,
                 "result": "win"

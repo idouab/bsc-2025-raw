@@ -1,0 +1,43 @@
+name: auto-update-elo
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  auto-update-elo:
+    permissions: write-all
+    runs-on: 'ubuntu-22.04'
+    steps:
+      - name: Checkout BrawlElo Repository
+        uses: actions/checkout@v4
+        with:
+          repository: 'kjljixx/BrawlElo'
+          token: '${{secrets.BRAWLELO_WRITE}}'
+      - name: Checkout Data Repository (This Repository)
+        uses: actions/checkout@v4
+        with:
+          path: 'bsc-2025-raw'
+      - name: Download Ordo 1.0
+        uses: robinraju/release-downloader@v1
+        with:
+          repository: 'michiguel/Ordo'
+          tag: '1.0'
+          fileName: 'ordo-linux64'
+      - name: Run Elo Calculations
+        run: |
+          mv ordo-linux64 ordo
+          chmod +x ordo
+          cd src
+          python main.py ea
+          python main.py emea
+          python main.py sa
+          python main.py na
+          python main.py world
+      - name: Commit Updated Elo Ratings
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: '-u'
+          message: 'Update Elo Calculation Results'
+          committer_name: 'GitHub Actions'
+          committer_email: 'actions@github.com'

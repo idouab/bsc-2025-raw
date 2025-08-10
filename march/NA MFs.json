@@ -123,7 +123,7 @@
         {
             "id": "82a47e36-fd35-11ef-8797-326da8c535f5",
             "tournament_id": 0,
-            "name": "Elevate",
+            "name": "Elevate0",
             "players": [
                 {
                     "name": "ELV|Ezlivi",
@@ -138,7 +138,7 @@
                     "gamerTag": "#R9CCLP8Q"
                 }
             ],
-            "img": "https://raw.githubusercontent.com/idouab/bsc-2025-raw/main/logos/Elevate.png"
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2025-raw/main/logos/Elevate0.png"
         },
         {
             "id": "471fba34-fd39-11ef-a986-fa2f9e021e8e",
@@ -469,7 +469,7 @@
             "status": 4,
             "opponent1": {
                 "id": "82a47e36-fd35-11ef-8797-326da8c535f5",
-                "name": "Elevate",
+                "name": "Elevate0",
                 "seed": 3,
                 "score": 1,
                 "result": "loss"

@@ -83,7 +83,7 @@
         {
             "id": "b73b4874-e745-11ef-b50c-0242ac130004",
             "tournament_id": 0,
-            "name": "Elevate",
+            "name": "Elevate0",
             "players": [
                 {
                     "name": "ELV|Zhar",
@@ -399,7 +399,7 @@
             "status": 4,
             "opponent1": {
                 "id": "b73b4874-e745-11ef-b50c-0242ac130004",
-                "name": "Elevate",
+                "name": "Elevate0",
                 "seed": 2,
                 "score": 3,
                 "result": "win"
@@ -624,7 +624,7 @@
             "status": 4,
             "opponent1": {
                 "id": "b73b4874-e745-11ef-b50c-0242ac130004",
-                "name": "Elevate",
+                "name": "Elevate0",
                 "seed": 2,
                 "score": 2,
                 "result": "loss"

@@ -483,7 +483,7 @@
         {
             "id": "c38f1a0e-f4a3-11ef-a38f-0242ac130004",
             "tournament_id": 0,
-            "name": "Elevate",
+            "name": "Elevate0",
             "players": [
                 {
                     "name": "ELV|Zhar",
@@ -498,7 +498,7 @@
                     "gamerTag": "#"
                 }
             ],
-            "img": "https://raw.githubusercontent.com/idouab/bsc-2025-raw/main/logos/Elevate.png"
+            "img": "https://raw.githubusercontent.com/idouab/bsc-2025-raw/main/logos/Elevate0.png"
         },
         {
             "id": "bf1b5878-fc7f-11ef-a139-fa2f9e021e8e",
@@ -1880,7 +1880,7 @@
             "status": 4,
             "opponent1": {
                 "id": "c38f1a0e-f4a3-11ef-a38f-0242ac130004",
-                "name": "Elevate",
+                "name": "Elevate0",
                 "seed": 3,
                 "score": 3,
                 "result": "win"
@@ -2655,7 +2655,7 @@
             "status": 4,
             "opponent1": {
                 "id": "c38f1a0e-f4a3-11ef-a38f-0242ac130004",
-                "name": "Elevate",
+                "name": "Elevate0",
                 "seed": 3,
                 "score": 3,
                 "result": "win"
@@ -3020,7 +3020,7 @@
             "status": 4,
             "opponent1": {
                 "id": "c38f1a0e-f4a3-11ef-a38f-0242ac130004",
-                "name": "Elevate",
+                "name": "Elevate0",
                 "seed": 3,
                 "score": 3,
                 "result": "win"
